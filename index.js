@@ -48,9 +48,6 @@ function getLatestSoftware(e) {
   xhttp.send();
 }
 
-//
-
-
 
 //var element = document.getElementById("links");
 
