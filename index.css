@@ -283,7 +283,7 @@ button:focus {
     background: #f1f1f1; 
 }
 ::-webkit-scrollbar-thumb {
-    background: ##f55; 
+    background: #f55; 
 }
 ::-webkit-scrollbar-thumb:hover {
     background: #555; 
