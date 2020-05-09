@@ -156,7 +156,7 @@ body,html {
 ::placeholder {
     color:#fff;
 }
-.btn_one > a{
+.btn_one{
     color:white;
     padding:10px 40px;
     border-radius:50px;
