@@ -168,9 +168,13 @@ body,html {
     transition:0.4s ease-in-out;
     margin:30px 10px;
 }
-
 .btn_one > a{
     color:white !important;
+    text-decoration: none !important;
+}
+.btn_one:hover > a{
+    color:black !important;
+    cursor:pointer;
     text-decoration: none !important;
 }
 .btn_one:hover {
@@ -180,23 +184,6 @@ body,html {
 }
 .project div {
     font-weight:normal;
-}
-.btn_two {
-    color:#000;
-    padding:10px 40px;
-    border-radius:50px;
-    border:2px solid #fff;
-    font-size:18px;
-    font-family: 'Comfortaa', cursive;
-    font-weight:bold;
-    background:#fff;
-    transition:0.4s ease-in-out;
-    margin:30px 10px;
-}
-.btn_two:hover {
-    background:transparent;
-    cursor:pointer;
-    color:#fff;
 }
 #details {
     margin:6vh 0px;
