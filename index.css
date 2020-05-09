@@ -255,7 +255,7 @@ body,html {
 }
 #footer a {
     font-size:18px;
-    background-image: linear-gradient(to left, #FF416C 0%, #FF4B2B 100%);
+    background-color: #f55 !important;
     -webkit-background-clip:text;
     background-clip:text;
     -webkit-text-fill-color: transparent;
