@@ -32,7 +32,20 @@ setTimeout(function(){
     },800);
 },1450);
 
-
+function getLatestSoftware(e) {
+  var nonprofit = e;
+  var url = 'https://raw.githubusercontent.com/EIGpennyhelper/' + nonprofit + '/master/master';
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      var link = this.responseText;
+      window.alert(link);
+      window.open(link, '_blank');
+    }
+  };
+  xhttp.open("GET", url , true);
+  xhttp.send();
+}
 
 
 
