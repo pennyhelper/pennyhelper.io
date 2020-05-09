@@ -32,7 +32,6 @@ setTimeout(function(){
     },800);
 },1450);
 
-
 function getLatestSoftware(e) {
   var nonprofit = e;
   var url = 'https://raw.githubusercontent.com/EIGpennyhelper/' + nonprofit + '/master/master';
@@ -47,18 +46,3 @@ function getLatestSoftware(e) {
   xhttp.open("GET", url , true);
   xhttp.send();
 }
-
-
-//var element = document.getElementById("links");
-
-//function scroll() {
-//  if (window.pageYOffset >= 100) {
-  //     element.classList.add("sticky");
-    //   element.style.position = "fixed";
-      // element.style.height = "initial";
-  //} else {
-    //   element.classList.remove("sticky");
-      // element.style.position = "absolute";
-  //     element.style.height = "75px";
-  //}
-//}
