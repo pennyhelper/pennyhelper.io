@@ -31,3 +31,18 @@ setTimeout(function(){
       $("#loading").css("display","none");
     },800);
 },1450);
+
+
+var element = document.getElementById("links");
+
+function scroll() {
+  if (window.pageYOffset >= 100) {
+       element.classList.add("sticky");
+       element.style.position = "fixed";
+       element.style.height = "initial";
+  } else {
+       element.classList.remove("sticky");
+       element.style.position = "absolute";
+       element.style.height = "75px";
+  }
+}
