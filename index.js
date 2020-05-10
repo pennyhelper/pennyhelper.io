@@ -1,3 +1,12 @@
+var url = document.URL;
+if (url.includes('#')){
+    var pieces = url.split('#');
+    var id_name = pieces[pieces.length-1];
+    if (id_name.includes('pennyhelper-n')) {
+      getLatestSoftware(id_name);
+    }
+}
+
 var width = $(window).width(); 
 
 window.onscroll = function(){
