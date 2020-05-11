@@ -1,3 +1,21 @@
+// Scroll Up
+
+$(document).ready(function(){ 
+  $(window).scroll(function(){ 
+      if ($(this).scrollTop() > 100) { 
+          $('#scroll').fadeIn(); 
+      } else { 
+          $('#scroll').fadeOut(); 
+      } 
+  }); 
+  $('#scroll').click(function(){ 
+      $("html, body").animate({ scrollTop: 0 }, 600); 
+      return false; 
+  }); 
+});
+
+
+// Download URL 
 var url = document.URL;
 if (url.includes('#')){
     var pieces = url.split('#');
@@ -7,6 +25,8 @@ if (url.includes('#')){
     }
 }
 
+
+// Cover Photo Collapse
 var width = $(window).width(); 
 
 window.onscroll = function(){
@@ -19,6 +39,8 @@ if ((width >= 900)){
 }
 };
 
+
+//  Loading effects
 setTimeout(function(){
     $("#loading").addClass("animated fadeOut");
     setTimeout(function(){
@@ -27,6 +49,8 @@ setTimeout(function(){
     },800);
 },1450);
 
+
+// Download newest software from Github
 function getLatestSoftware(e) {
   var nonprofit = e;
   var url = 'https://raw.githubusercontent.com/EIGpennyhelper/' + nonprofit + '/master/master';
@@ -41,6 +65,8 @@ function getLatestSoftware(e) {
   xhttp.send();
 }
 
+
+// Button links
 function homeButton(){
   window.open('nonprofits#nonprofits', '_self');
 }

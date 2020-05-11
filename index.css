@@ -177,8 +177,43 @@ body,html {
 .project div {
     font-weight:normal;
 }
-#details {
-    margin:6vh 0px;
+#scroll {
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    cursor:pointer;
+    width:50px;
+    height:50px;
+    background-color:white;
+    text-indent:-9999px;
+    display:none;
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
+    border-radius:60px;
+    border:2px solid white;
+    background:transparent;
+    transition:0.4s ease-in-out;
+}
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:white;
+}
+#scroll:hover {
+    background-color:white;
+    opacity:1;filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
+}
+#scroll:hover > span {
+    border-bottom-color:black;
+    opacity:1;filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
 }
 @media (max-width: 900px){
     #header {
