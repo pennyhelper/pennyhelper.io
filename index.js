@@ -44,3 +44,15 @@ function getLatestSoftware(e) {
 function homeButton(){
   window.open('nonprofits#nonprofits', '_self');
 }
+
+function contactButton(){
+  window.open('contact#contact', '_self');
+}
+
+function aboutButton(){
+  window.open('about#about', '_self');
+}
+
+function projectButton(){
+  window.open('https://www.github.com/EIGpennyhelper', '_self');
+}
