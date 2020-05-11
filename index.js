@@ -40,3 +40,7 @@ function getLatestSoftware(e) {
   xhttp.open("GET", url , true);
   xhttp.send();
 }
+
+function homeButton(){
+  window.open('nonprofits#nonprofits', '_self');
+}
