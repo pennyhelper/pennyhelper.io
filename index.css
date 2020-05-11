@@ -169,15 +169,6 @@ body,html {
     transition:0.4s ease-in-out;
     margin:30px 10px;
 }
-.btn_one > a{
-    color:white !important;
-    text-decoration: none !important;
-}
-.btn_one:hover > a{
-    color:black !important;
-    cursor:pointer;
-    text-decoration: none !important;
-}
 .btn_one:hover {
     background:white;
     cursor:pointer;
@@ -188,20 +179,6 @@ body,html {
 }
 #details {
     margin:6vh 0px;
-}
-.btn_social {
-    font-size:18px;
-    color:#fff;
-    margin:40px 20px;
-    padding:15px 18px;
-    border-radius:50%;
-    background:#000;
-    transition:0.4s ease-in-out;
-}
-.btn_social:hover {
-    color:#000;
-    background:#fff;
-    cursor:pointer;
 }
 @media (max-width: 900px){
     #header {
@@ -231,20 +208,11 @@ body,html {
         font-size:14px;
         padding:8px 20px;
     }
-    .btn_two {
-        font-size:14px;
-        padding:8px 20px;
-    }
     #contact form input {
         width:92%;
     }
     #contact form textarea {
         width:92%;
-    }
-    .btn_social {
-        font-size:14px;
-        margin:10px;
-        padding:10px 11px;
     }
 }
 #footer {
