@@ -85,5 +85,5 @@ function aboutButton(){
 }
 
 function projectButton(){
-  window.open('https://www.github.com/EIGpennyhelper', '_self');
+  window.open('https://www.github.com/EIGpennyhelper', '_blank');
 }
