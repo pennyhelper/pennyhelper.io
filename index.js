@@ -1,5 +1,3 @@
-// Sticky Nav
-
 // Scroll Up
 $(document).ready(function(){ 
   $(window).scroll(function(){ 
@@ -14,6 +12,12 @@ $(document).ready(function(){
       return false; 
   }); 
 });
+
+// 
+function scrollID(e) {
+  var elmnt = document.getElementById(e);
+  elmnt.scrollIntoView();
+}
 
 
 // Download URL 

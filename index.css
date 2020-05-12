@@ -73,7 +73,6 @@ body,html {
 #middle {
     width:100%;
     height:80vh;
-    /** background-color: #000 !important; **/
     background:linear-gradient(0deg,rgba(0,0,0,1),rgba(0,0,0,0)),url("img/cover.jpg") center center fixed;
     background-size:100% auto;
     background-repeat:no-repeat;
