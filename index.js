@@ -73,15 +73,15 @@ function getLatestSoftware(e) {
 
 // Button links
 function homeButton(){
-  window.open('nonprofits#nonprofits', '_self');
+  window.open('nonprofits', '_self');
 }
 
 function contactButton(){
-  window.open('contact#contact', '_self');
+  window.open('contact', '_self');
 }
 
 function aboutButton(){
-  window.open('about#about', '_self');
+  window.open('about', '_self');
 }
 
 function projectButton(){
