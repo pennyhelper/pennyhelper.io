@@ -1,25 +1,60 @@
----
-permalink: /404.html
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Penny Helper</title>
+    <link rel="icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
 
-<div class="container">
-  <h1>404</h1>
+<body onload="scrollID('about')">
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+        <div id="title"><a href="index">penny helper</a></div><br>
+        <div id="links">
+            <a href="nonprofits">nonprofits</a>
+            <a href="about" style="margin:0px 60px;">about</a>
+            <a href="contact">contact</a>
+        </div>
+    </div>
+
+    <a href="#" id="scroll" style="display: none;"><span></span></a>
+
+    <center>
+    <div id="middle">
+        <div id="tagline" class="animated zoomIn" style="animation-delay:1.8s;">
+            the future of cryptocurrency is here<br>
+            <button onclick="homeButton()" class="btn_one">Start Today</button>
+        </div>
+    </div>
+    </center>
+
+    <div id="content">
+         
+        <div id="about">
+            <h1>404 error</h1>
+            <h2>could not find desired webpage</h2><br><br>
+            <p>please try a diffent URL, as the desired one may have changed.</p>
+        </div>
+
+    </div>
+             
+
+    <div id="footer">
+        Created by Expeditionary Interest Group<br><br> <a href="https://github.com/EIGpennyhelper">Penny Helper</a>
+    </div>
+
+<script src="index.js" type="text/javascript"></script>
+
+</body>
+</html>>

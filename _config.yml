@@ -21,10 +21,9 @@
 title: Penny Helper
 email: info@eigpennyhelper.com
 description: >- # this means to ignore newlines until "baseurl:"
-  The future of cryptocurrency is here. Check our nonprofits and start contributing today.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://eigpennyhelper.com" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  EIGpennyhelper
+  The future of cryptocurrency is here. Check our our nonprofits, and download Penny Helper to start donating today.
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  EIGpennyhelper.com
 
 # Build settings
 theme: minima
