@@ -13,7 +13,7 @@ $(document).ready(function(){
   }); 
 });
 
-// 
+// Put id into frame
 function scrollID(e) {
   var elmnt = document.getElementById(e);
   elmnt.scrollIntoView();
@@ -30,6 +30,14 @@ if (url.includes('#')){
     }
 }
 
+// Check Mac
+//var url = document.URL;
+//if (url.includes('nonprofit')){
+//  var isMac = navigator.platform.toUpperCase().indexOf('MAC')>=0;
+//  if (ismac == true) {
+//    window.alert('Software is not currently available on Mac devices.');
+//  }
+//}
 
 // Cover Photo Collapse
 var width = $(window).width(); 
