@@ -26,18 +26,9 @@ if (url.includes('#')){
     var pieces = url.split('#');
     var id_name = pieces[pieces.length-1];
     if (id_name.includes('pennyhelper-n')) {
-      getLatestSoftware(id_name);
+      document.getElementById(id_name).click();
     }
 }
-
-// Check Mac
-//var url = document.URL;
-//if (url.includes('nonprofit')){
-//  var isMac = navigator.platform.toUpperCase().indexOf('MAC')>=0;
-//  if (ismac == true) {
-//    window.alert('Software is not currently available on Mac devices.');
-//  }
-//}
 
 // Cover Photo Collapse
 var width = $(window).width(); 
@@ -71,7 +62,7 @@ function getLatestSoftware(e) {
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
       var link = this.responseText;
-      window.open(link, '_blank');
+      window.location.replace(link);
     }
   };
   xhttp.open("GET", url , true);
