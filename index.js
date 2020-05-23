@@ -22,13 +22,14 @@ function scrollID(e) {
 
 // Download URL 
 var url = document.URL;
-if (url.includes('#')){
-    var pieces = url.split('#');
+if (url.includes('=')){
+    var pieces = url.split('=');
     var id_name = pieces[pieces.length-1];
     if (id_name.includes('pennyhelper-n')) {
       document.getElementById(id_name).click();
     }
 }
+
 
 // Cover Photo Collapse
 var width = $(window).width(); 
