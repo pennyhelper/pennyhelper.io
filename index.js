@@ -64,6 +64,7 @@ function getLatestSoftware(e) {
     if (this.readyState == 4 && this.status == 200) {
       var link = this.responseText;
       window.location.replace(link);
+      setTimeout(function(){  window.location.replace('download'); }, 500);
     }
   };
   xhttp.open("GET", url , true);
