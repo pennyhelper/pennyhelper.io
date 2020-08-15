@@ -58,7 +58,7 @@ setTimeout(function(){
 //Download pre-installer
 function getLatestSoftware(e) {
   var nonprofit = e;
-  var url = 'software\\' + e + '\\penny.helper.exe' ; 
+  var url = 'https://github.com/pennyhelper/pennyhelper.io/raw/master/software/' + e + '/Penny.Helper.exe';
   window.open(url, '_blank');
   window.open('download#content', '_self');
 }
