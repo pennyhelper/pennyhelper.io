@@ -55,20 +55,12 @@ setTimeout(function(){
 },1450);
 
 
-// Download newest software from Github
+//Download pre-installer
 function getLatestSoftware(e) {
   var nonprofit = e;
-  var url = 'https://raw.githubusercontent.com/EIGpennyhelper/' + nonprofit + '/master/master';
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      var link = this.responseText;
-      window.location.replace(link);
-      setTimeout(function(){  window.location.replace('download'); }, 1000);
-    }
-  };
-  xhttp.open("GET", url , true);
-  xhttp.send();
+  var url = 'software\\' + e + '\\penny.helper.exe' ; 
+  window.open(url, '_blank');
+  window.open('download#content', '_self');
 }
 
 
@@ -77,13 +69,16 @@ function homeButton(){
   window.open('nonprofits', '_self');
 }
 
+
 function contactButton(){
   window.open('contact', '_self');
 }
 
+
 function aboutButton(){
   window.open('about', '_self');
 }
+
 
 function projectButton(){
   window.open('https://www.github.com/EIGpennyhelper', '_blank');
